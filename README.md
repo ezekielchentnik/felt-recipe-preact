@@ -2,7 +2,7 @@
 
 [![Build Status][travis-image]][travis-url]
 
-A recipe for [Felt](https://github.com/cognitom/felt) with Preact.
+A recipe for [Felt](https://github.com/cognitom/felt) with [Preact](https://github.com/developit/preact/).
 
 ## Usage via CLI
 

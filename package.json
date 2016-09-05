@@ -1,6 +1,6 @@
 {
   "name": "felt-recipe-preact",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A recipe for Felt with Preact",
   "main": "felt.config.js",
   "files": [

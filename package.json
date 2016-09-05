@@ -1,0 +1,46 @@
+{
+  "name": "felt-recipe-preact",
+  "version": "0.0.0",
+  "description": "A recipe for Felt with Preact",
+  "main": "felt.config.js",
+  "files": [
+    "felt.config.js"
+  ],
+  "homepage": "https://github.com/ezekielchentnik/felt-recipe-preact",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezekielchentnik/felt-recipe-preact.git"
+  },
+  "author": "Ezekiel Chentnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezekielchentnik/felt-recipe-preact/issues"
+  },
+  "keywords": [
+    "felt"
+  ],
+  "dependencies": {
+    "felt-postcss": "0.1.0",
+    "felt-rollup": "0.1.2",
+    "postcss-cssnext": "2.7.0",
+    "postcss-import": "8.1.2",
+    "rollup-plugin-buble": "0.13.0",
+    "rollup-plugin-commonjs": "4.1.0",
+    "rollup-plugin-node-resolve": "2.0.0",
+    "rollup-plugin-replace": "1.1.1"
+  },
+  "devDependencies": {
+    "co": "4.6.0",
+    "eslint": "3.3.0",
+    "felt": "0.2.4",
+    "mocha": "3.0.2",
+    "nightmare": "2.6.1",
+    "preact": "6.0.1"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint felt.config.js",
+    "mocha": "mocha -t 10000 test/spec.js",
+    "start": "felt --config felt.config.js --src test/fixture --cache test/cache --debug --watch"
+  }
+}
